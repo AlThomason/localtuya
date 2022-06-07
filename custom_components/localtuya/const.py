@@ -38,6 +38,12 @@ CONF_FAN_SPEED_LOW = "fan_speed_low"
 CONF_FAN_SPEED_MEDIUM = "fan_speed_medium"
 CONF_FAN_SPEED_HIGH = "fan_speed_high"
 
+# replacing HASS constants
+SPEED_HIGH = "high"
+SPEED_LOW = "low"
+SPEED_MEDIUM = "medium"
+SPEED_OFF = "off"
+
 # sensor
 CONF_SCALING = "scaling"
 

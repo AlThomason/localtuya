@@ -5,10 +5,6 @@ from functools import partial
 import voluptuous as vol
 from homeassistant.components.fan import (
     DOMAIN,
-    SPEED_HIGH,
-    SPEED_LOW,
-    SPEED_MEDIUM,
-    SPEED_OFF,
     SUPPORT_OSCILLATE,
     SUPPORT_SET_SPEED,
     FanEntity,
@@ -21,6 +17,10 @@ from .const import (
     CONF_FAN_SPEED_HIGH,
     CONF_FAN_SPEED_LOW,
     CONF_FAN_SPEED_MEDIUM,
+    SPEED_LOW,
+    SPEED_MEDIUM,
+    SPEED_OFF,
+    SPEED_HIGH,
 )
 
 _LOGGER = logging.getLogger(__name__)
